@@ -9,5 +9,14 @@ gap: 30px;
 
 nav li a{
 text-decoration: none;
-color: rgb(3, 109, 77);
+color: rgb(4, 109, 64);
+}
+nav li a:hover{
+color: rgb(209, 66, 142);
+}
+nav li:hover{
+
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+padding: 10px;
 }
