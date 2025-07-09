@@ -16,7 +16,8 @@
     height: 250px;
    text-align: justify;
     margin: 25 30px;
-    border: #f3a2a2 rgb(94, 72, 243);
+    border: #f3a2a2 rgb(94, 72, 243); 
+    border-radius: 18px;
     padding: 30px solid #6a2222;
 }
 body{ 
@@ -30,9 +31,12 @@ margin: 25px 30px;
 
 }
 .Hero-container div{
+    height: 200px
+    width: 300px;
     text-align: justify;
-    
-    text-align: center;
+    padding: 20px;
+    text-align: right;
+    text-wrap: wrap;
     margin-bottom: 10
     px;
 }
@@ -40,11 +44,12 @@ margin: 25px 30px;
 
 background-color: #6a2222;
     color: #f3a2a2;
-    border: none;
+    border: tomato 2px solid;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s ease;
 
 
 }
