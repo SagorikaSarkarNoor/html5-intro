@@ -7,6 +7,15 @@ body{
     color: #643131;
     padding: 40px solid #841818;
 }
+
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+}
 .card:hover{
 
     background-color: #f5a1e7;
